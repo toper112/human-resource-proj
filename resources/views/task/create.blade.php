@@ -6,7 +6,7 @@
         <div class="col-md-5">
             <form action="{{url('tasks/store')}}" method="POST">
                 @csrf
-                
+
                 <div class="form-group">
                     <label for="title">Task Title</label>
                     <input class="form-control" type="text" name="title">
@@ -58,4 +58,11 @@
             </form>
         </div>
     </div>
+    <style scoped>
+        label{
+            font-weight: bold;
+            color: aqua;
+            text-shadow: 3px 3px 3px black;
+        }
+    </style>
 @endsection

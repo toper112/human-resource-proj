@@ -68,4 +68,11 @@
       </form>
     </div>
   </div>
+  <style scoped>
+    label{
+        font-weight: bold;
+        color: aqua;
+        text-shadow: 3px 3px 3px black;
+    }
+</style>
 @endsection

@@ -17,7 +17,7 @@ class Employee extends Model
         ];
     public static function list() {
 
-        $employees = Employee::orderByRaw('id')->get();
+        $employees = Employee::orderByRaw('full_name')->get();
         $list = [];
         foreach ($employees as $employee) {
             $list[$employee->id] = $employee->full_name;
